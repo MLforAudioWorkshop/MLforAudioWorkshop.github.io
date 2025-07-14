@@ -184,7 +184,7 @@ domain, listed below along with brief biographies. All confirmed invited speaker
 
 <p><strong><a href="https://www.linkedin.com/in/james-betker-4a051013/">James Betker</a></strong> is a research scientist at OpenAI, where he is one of the audio leads for GPT-4o. He is also the lead author of DALL-E 3. Previously, he  created TorToiSe, a popular open source text-to-speech system. He also had a long tenure as a senior software engineer at Garmin, where he developed vehicular navigation systems. His research interests include generative models for audio and images.</p>
 
-
+<p><strong><a href="https://www.cs.huji.ac.il/~adiyoss/">Yossi Adi</a></strong> is an Assistant Professor at the school of computer science and engineering at the Hebrew University of Jerusalem, and a Research Scientist at the FAIR team (Meta). Yossi completed his Ph.D. in computer science at Bar-Ilan University and is a recipient of the IAAI Best Doctoral Dissertation Award and the Alon scholarship. Yossi's research interests are in speech and language processing using machine learning and deep learning models. Yossi's research spans core machine learning and deep learning algorithms, their applications to spoken language processing, and the impact of the technology on social systems.</p>
 
 <p><strong><a href="https://scholar.google.com/citations?user=1H4HuCkAAAAJ&hl=en">Daniel PW Ellis</a></strong> is a research scientist at Google. From 2000-2015, he was a professor in the Electrical Engineering Department at Columbia University. In 2015, he joined Google in New York. He also runs the AUDITORY email list of over 2000 worldwide researchers in perception and cognition of sound. His research interests include speech recognition, music description, and environmental sound processing.</p>
 
@@ -200,6 +200,29 @@ domain, listed below along with brief biographies. All confirmed invited speaker
         <th>Speaker</th>
         <th>Title</th>
         <th>Abstract</th>
+    </tr>
+    <tr>
+        <td>Yossi Adi</td>
+        <td>
+            On The Role of Speech in Speech Language Models.
+        </td>
+        <td>
+           Spoken language models (SLMs) have emerged as an interesting and promising research direction. Yet, the term ‘spoken language model’ is interpreted differently across research groups. In this talk, I will present my perspective on the current landscape of SLMs, with particular emphasis on their scaling behavior and evaluation methods. Building on this foundation, we will discuss current SLM evaluations and what I believe should be the role of speech and audio in these models. I will conclude by introducing a novel data generation pipeline, alongside empirical evidence demonstrating that fine-tuning SLMs on this data leads to notable improvements in prosodic understanding, without compromising performance on other downstream tasks.</td>
+    </tr>
+    <tr>
+        <td>Dan Ellis</td>
+        <td>
+            Event-roll-guided generative audio editing 
+
+        </td>
+        <td>
+           Editing complex real-world sound scenes is difficult because individual sound sources overlap in time.
+    Generative models can fill-in missing or corrupted details based on their strong prior understanding of the data domain.
+    We present a system for editing individual sound events within complex scenes able to delete, insert, and enhance individual sound events
+    based on textual edit descriptions (e.g., ``enhance Door'') and a graphical representation of the event timing
+    derived from an ``event roll'' transcription.  We present an encoder-decoder transformer working on SoundStream representations,
+    trained on synthetic (input, desired output) audio example pairs formed by adding isolated sound events to dense, real-world backgrounds.  Evaluation reveals the importance of each part of the edit descriptions -- action, class, timing.  Our work demonstrates ``recomposition'' is an important and practical application.
+        </td>
     </tr>
     <tr>
         <td>Laura Laurenti</td>
@@ -228,6 +251,8 @@ Foundation models learn a generalized representation from large-scale seismic da
             In this talk, I will present some recent progress towards deciphering the structure of naturally occurring communication in the wild, with a focus on the vocalizations of sperm whales. I’ll share experiments that led to uncovering a unique combinatorial communication system in sperm whales—revealing a level of structural complexity and context sensitivity not previously recognized. I’ll conclude by outlining a broader research project: developing a generalizable, data-driven framework for decoding the communication systems of diverse species. This work opens the door to a deeper understanding of non-human intelligence and the underlying principles that govern its expression.
         </td>
     </tr>
+    
+    
     
 </table>
 
